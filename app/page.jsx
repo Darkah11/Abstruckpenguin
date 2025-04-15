@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import herobg from '@/public/herobg.jpg'
-import plane from '@/public/atp-plane.jpg'
-import bat from '@/public/atp-bat.jpg'
-import shark from '@/public/atp-shark.jpg'
+import herobg from '@/public/herobg.JPG'
+import plane from '@/public/atp-plane.JPG'
+import bat from '@/public/atp-bat.JPG'
+import shark from '@/public/atp-shark.JPG'
 import atp from '@/public/atp.svg'
 import Link from 'next/link'
 
