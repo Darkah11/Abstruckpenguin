@@ -4,6 +4,10 @@ import plane from '@/public/atp-plane.JPG'
 import bat from '@/public/atp-bat.JPG'
 import shark from '@/public/atp-shark.JPG'
 import atp from '@/public/atp.svg'
+import wallet from '@/public/wallet.png'
+import deposit from '@/public/deposit.png'
+import link from '@/public/link.png'
+import swap from '@/public/swap.png'
 import Link from 'next/link'
 
 export default function Home() {
@@ -62,7 +66,7 @@ export default function Home() {
           </Link>
         </div>
       </section>
-      <section className=" relative flex justify-center items-center px-5 py-24">
+      {/* <section className=" relative flex justify-center items-center px-5 py-24">
         <div>
           <div>
             <p className=" text-oren font-bold text-sm mb-2">ABOUT $ATP</p>
@@ -77,7 +81,7 @@ export default function Home() {
               Id, exercitationem? Nihil dolore quas quia cumque recusandae,
               laudantium aliquam quod provident esse! Magnam, cum autem.
             </p>
-            <div className=' flex items-center gap-x-3 mt-4'>
+            <div className=" flex items-center gap-x-3 mt-4">
               <Link href={'/'}>
                 <button className=" bg-oren w-[150px] py-[10px] rounded-full uppercase text-sm font-medium text-white mt-3">
                   Join X
@@ -117,7 +121,202 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section> */}
+      <section>
+        <div className="">
+          <div>
+            <div className=" px-5 py-7 bg-primary">
+              <p className=" text-oren font-bold text-sm mb-2">ABOUT $ATP</p>
+              <h2 className=" text-white text-3xl font-medium capitalize mb-3">
+                Lorem ipsum dolor.
+              </h2>
+              <p className=" text-gray-400">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Praesentium labore blanditiis officia nam culpa, quas delectus
+                sed fugit neque voluptate quia illum veritatis ullam repellendus
+                dolor molestias ratione dolorem nobis accusamus tenetur, aliquam
+                quidem. Id
+              </p>
+              <div className=" flex items-center gap-x-3 mt-4">
+                <Link href={'/'}>
+                  <button className=" bg-oren w-[150px] py-[10px] rounded-full uppercase text-sm font-medium text-white mt-3">
+                    Join X
+                  </button>
+                </Link>
+                <Link href={'/'}>
+                  <button className=" bg-purp w-[150px] py-[10px] rounded-full uppercase text-sm font-medium text-white mt-3">
+                    Join Telegram
+                  </button>
+                </Link>
+              </div>
+            </div>
+            <div>
+              <Image
+                src={plane}
+                alt="atp and plane"
+                className=" h-[300px] object-cover"
+              />
+            </div>
+          </div>
+          <div>
+            <div className=" px-5 py-7 bg-primary">
+              <p className=" text-oren font-bold text-sm mb-2">ABOUT $ATP</p>
+              <h2 className=" text-white text-3xl font-medium capitalize mb-3">
+                Lorem ipsum dolor.
+              </h2>
+              <p className=" text-gray-400">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Praesentium labore blanditiis officia nam culpa, quas delectus
+                sed fugit neque voluptate quia illum veritatis ullam repellendus
+                dolor molestias ratione dolorem nobis accusamus tenetur, aliquam
+                quidem. Id
+              </p>
+              <div className=" flex items-center gap-x-3 mt-4">
+                <Link href={'/'}>
+                  <button className=" bg-oren w-[150px] py-[10px] rounded-full uppercase text-sm font-medium text-white mt-3">
+                    Join X
+                  </button>
+                </Link>
+                <Link href={'/'}>
+                  <button className=" bg-purp w-[150px] py-[10px] rounded-full uppercase text-sm font-medium text-white mt-3">
+                    Join Telegram
+                  </button>
+                </Link>
+              </div>
+            </div>
+            <div>
+              <Image
+                src={bat}
+                alt="atp and plane"
+                className=" h-[300px]  object-top object-cover"
+              />
+            </div>
+          </div>
+          <div>
+            <div className=" px-5 py-7 bg-primary">
+              <p className=" text-oren font-bold text-sm mb-2">ABOUT $ATP</p>
+              <h2 className=" text-white text-3xl font-medium capitalize mb-3">
+                Lorem ipsum dolor.
+              </h2>
+              <p className=" text-gray-400">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Praesentium labore blanditiis officia nam culpa, quas delectus
+                sed fugit neque voluptate quia illum veritatis ullam repellendus
+                dolor molestias ratione dolorem nobis accusamus tenetur, aliquam
+                quidem. Id
+              </p>
+              <div className=" flex items-center gap-x-3 mt-4">
+                <Link href={'/'}>
+                  <button className=" bg-oren w-[150px] py-[10px] rounded-full uppercase text-sm font-medium text-white mt-3">
+                    Join X
+                  </button>
+                </Link>
+                <Link href={'/'}>
+                  <button className=" bg-purp w-[150px] py-[10px] rounded-full uppercase text-sm font-medium text-white mt-3">
+                    Join Telegram
+                  </button>
+                </Link>
+              </div>
+            </div>
+            <div>
+              <Image
+                src={shark}
+                alt="atp and plane"
+                className=" h-[300px]  object-top object-cover"
+              />
+            </div>
+          </div>
+        </div>
       </section>
+      <section className=" bg-oren px-5 py-24">
+        <div>
+          <h2 className=" text-white text-4xl font-semibold text-center">
+            How To Buy
+          </h2>
+          <div className=" flex flex-col justify-center items-center mt-8 gap-y-10 ">
+            <div className=" bg-white max-w-[300px] px-5 py-8 rounded-lg text-center">
+              <Image src={wallet} className=" mx-auto" />
+              <h3 className=" text-primary font-bold text-xl mt-5">
+                Create Wallet
+              </h3>
+              <p className=" mt-3 text-gray-700 leading-7">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aperiam, voluptatibus.
+              </p>
+            </div>
+            <div className=" bg-white max-w-[300px] px-5 py-8 rounded-lg text-center">
+              <Image src={deposit} className=" mx-auto" />
+              <h3 className=" text-primary font-bold text-xl mt-5">
+                Deposit ETH
+              </h3>
+              <p className=" mt-3 text-gray-700 leading-7">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aperiam, voluptatibus.
+              </p>
+            </div>
+            <div className=" bg-white max-w-[300px] px-5 py-8 rounded-lg text-center">
+              <Image src={link} className=" mx-auto" />
+              <h3 className=" text-primary font-bold text-xl mt-5">
+                Bridge To Abstract
+              </h3>
+              <p className=" mt-3 text-gray-700 leading-7">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aperiam, voluptatibus.
+              </p>
+            </div>
+            <div className=" bg-white max-w-[300px] px-5 py-8 rounded-lg text-center">
+              <Image src={swap} className=" mx-auto" />
+              <h3 className=" text-primary font-bold text-xl mt-5">
+                Swap To $ATP
+              </h3>
+              <p className=" mt-3 text-gray-700 leading-7">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aperiam, voluptatibus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className=" bg-purp px-5 py-24">
+        <div>
+          <h2 className=" text-white text-4xl font-semibold text-center">
+            Tokenomics
+          </h2>
+        </div>
+      </section>
+      <footer className=" bg-gray-950 py-24 text-white">
+        <div className=" flex flex-col justify-center items-center">
+          <Image src={atp} />
+          <Link href={'/'}>
+            <button className=" mt-8 btn w-[150px] py-[10px] rounded-full uppercase text-sm font-medium text-white">
+              buy $atp
+            </button>
+          </Link>
+          <div className=" flex items-center gap-2 mt-12">
+            <Link href={'/'}>
+              <Image
+                src={'/x-light.png'}
+                alt="x image"
+                width={100}
+                height={100}
+                className=" w-14"
+              />
+            </Link>
+            <Link href={'/'}>
+              <Image
+                src={'/tel-light.png'}
+                alt="x image"
+                width={100}
+                height={100}
+                className=" w-14"
+              />
+            </Link>
+          </div>
+          <p className=" text-center mt-10">
+            © 2025 AbsTruckPenguin. All rights reserved.
+          </p>
+        </div>
+      </footer>
     </>
   )
 }
