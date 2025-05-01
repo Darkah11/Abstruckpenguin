@@ -117,7 +117,7 @@ export default function Home() {
               <p className=" text-gray-400">
                 Enter Luca Nutz a human interloper, unremarkable but for a Thai
                 alley and a stolen book. A tourist turned tyrant, he craved what
-                the P.U.D.G.Y. hid. "They don’t deserve it,” he hissed,
+                the P.U.D.G.Y. hid. "They don’t deserve it,&quot; he hissed,
                 clutching a USB etched with alien truths. Not tech. Not data. A
                 spiritual cartridge demanding flesh over wires. The cost?
                 Memory. Sanity. A deal struck with Boneca ambalabu a tire legged
@@ -150,7 +150,7 @@ export default function Home() {
             <div className=" px-5 py-7 bg-primary md:w-1/2 md:flex md:flex-col justify-center">
               <p className=" text-oren font-bold text-sm mb-2">ABOUT $ATP</p>
               <h2 className=" text-white text-3xl font-medium capitalize mb-3">
-                "WELCOME, LUCA. THE COST HAS BEEN REGISTERED.”
+              &quot;WELCOME, LUCA. THE COST HAS BEEN REGISTERED.&quot;
               </h2>
               <p className=" text-gray-400">
                 The download began. <br /> <br /> Now, the $SATP token revs at
@@ -188,7 +188,7 @@ export default function Home() {
           </h2>
           <div className=" flex flex-col justify-center md:justify-between md:flex-wrap md:flex-row md:items-stretch  items-center mt-8 gap-y-10 ">
             <div className=" bg-white max-w-[300px] md:max-w-[23%] px-5 py-8 rounded-lg text-center">
-              <Image src={wallet} className=" mx-auto" />
+              <Image src={wallet} alt="wallet image" className=" mx-auto" />
               <h3 className=" text-primary font-bold text-xl mt-5">
                 Create Wallet
               </h3>
@@ -198,7 +198,7 @@ export default function Home() {
               </p>
             </div>
             <div className=" bg-white max-w-[300px] md:max-w-[23%] px-5 py-8 rounded-lg text-center">
-              <Image src={deposit} className=" mx-auto" />
+              <Image src={deposit} alt="deposit image" className=" mx-auto" />
               <h3 className=" text-primary font-bold text-xl mt-5">
                 Deposit ETH
               </h3>
@@ -208,7 +208,7 @@ export default function Home() {
               </p>
             </div>
             <div className=" bg-white max-w-[300px] md:max-w-[23%] px-5 py-8 rounded-lg text-center">
-              <Image src={link} className=" mx-auto" />
+              <Image alt="bridge image" src={link} className=" mx-auto" />
               <h3 className=" text-primary font-bold text-xl mt-5">
                 Bridge To Abstract
               </h3>
@@ -218,7 +218,7 @@ export default function Home() {
               </p>
             </div>
             <div className=" bg-white max-w-[300px] md:max-w-[23%] px-5 py-8 rounded-lg text-center">
-              <Image src={swap} className=" mx-auto" />
+              <Image src={swap} alt="swap image" className=" mx-auto" />
               <h3 className=" text-primary font-bold text-xl mt-5">
                 Swap To $ATP
               </h3>
