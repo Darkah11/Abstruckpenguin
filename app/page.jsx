@@ -117,7 +117,7 @@ export default function Home() {
               <p className=" text-gray-400">
                 Enter Luca Nutz a human interloper, unremarkable but for a Thai
                 alley and a stolen book. A tourist turned tyrant, he craved what
-                the P.U.D.G.Y. hid. "They don’t deserve it,&quot; he hissed,
+                the P.U.D.G.Y. hid. &quot;They don’t deserve it,&quot; he hissed,
                 clutching a USB etched with alien truths. Not tech. Not data. A
                 spiritual cartridge demanding flesh over wires. The cost?
                 Memory. Sanity. A deal struck with Boneca ambalabu a tire legged
@@ -303,7 +303,7 @@ export default function Home() {
       </section>
       <footer className=" bg-gray-950 py-24 text-white">
         <div className=" flex flex-col justify-center items-center">
-          <Image src={atp} />
+          <Image alt=" atp image" src={atp} />
           <Link href={"/"}>
             <button className=" mt-8 btn w-[150px] py-[10px] rounded-full uppercase text-sm font-medium text-white">
               buy $atp
