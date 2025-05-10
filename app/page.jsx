@@ -231,15 +231,14 @@ export default function Home() {
       </section>
       <section className=" bg-purp px-5 py-24">
         <div>
-          <div>
-            <div className=" text-center max-w-[380px] mx-auto mb-10">
-              <h2 className=" text-white text-4xl font-semibold mb-3 ">
+          <div className=" lg:flex lg:justify-center lg:items-center lg:gap-x-44">
+            <div className=" text-center lg:text-left max-w-[380px] lg:mx-0 mx-auto mb-10">
+              <h2 className=" text-white text-4xl lg:text-6xl font-semibold mb-3  ">
                 Tokenomics
               </h2>
-              <p className=" text-gray-300">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Corporis, alias voluptatem vero ipsam harum qui neque ipsum
-                ducimus aut dolor velit fugit, cum eum aspernatur!
+              <p className=" text-gray-300 lg:text-lg">
+
+                This here provides details of the allocation and the market cap of $ATP. The chaos coin will only keep soaring, hop on the penguin trucks and ride through black holes.
               </p>
             </div>
             <div>
@@ -251,14 +250,14 @@ export default function Home() {
             </div>
           </div>
           <div className=" flex justify-between mt-10 flex-wrap gap-y-8">
-            <div className=" text-center w-1/2">
+            <div className=" text-center w-1/2 md:w-1/3 lg:w-1/6">
               <p className=" text-orange-400 font-semibold">3% Burned</p>
               <h3 className=" text-white text-4xl font-bold">100K</h3>
               <p className=" text-gray-400">
                 Market <br /> Cap
               </p>
             </div>
-            <div className=" text-center w-1/2">
+            <div className=" text-center w-1/2 md:w-1/3 lg:w-1/6">
               <p className=" text-orange-400 font-semibold">3% Burned</p>
               <h3 className=" text-white text-4xl font-bold">200K</h3>
               <p className=" text-gray-400">
@@ -266,7 +265,7 @@ export default function Home() {
                 <br /> Cap
               </p>
             </div>
-            <div className=" text-center w-1/2">
+            <div className=" text-center w-1/2 md:w-1/3 lg:w-1/6">
               <p className=" text-orange-400 font-semibold">3% Burned</p>
               <h3 className=" text-white text-4xl font-bold">500K</h3>
               <p className=" text-gray-400">
@@ -274,7 +273,7 @@ export default function Home() {
                 <br /> Cap
               </p>
             </div>
-            <div className=" text-center w-1/2">
+            <div className=" text-center w-1/2 md:w-1/3 lg:w-1/6">
               <p className=" text-orange-400 font-semibold">3% Burned</p>
               <h3 className=" text-white text-4xl font-bold">600K</h3>
               <p className=" text-gray-400">
@@ -282,7 +281,7 @@ export default function Home() {
                 <br /> Cap
               </p>
             </div>
-            <div className=" text-center w-1/2">
+            <div className=" text-center w-1/2 md:w-1/3 lg:w-1/6">
               <p className=" text-orange-400 font-semibold">3% Burned</p>
               <h3 className=" text-white text-4xl font-bold">700K</h3>
               <p className=" text-gray-400">
@@ -290,7 +289,7 @@ export default function Home() {
                 <br /> Cap
               </p>
             </div>
-            <div className=" text-center w-1/2">
+            <div className=" text-center w-1/2 md:w-1/3 lg:w-1/6">
               <p className=" text-orange-400 font-semibold">5% Burned</p>
               <h3 className=" text-white text-4xl font-bold">1M</h3>
               <p className=" text-gray-400">
